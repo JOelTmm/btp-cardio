@@ -1,0 +1,4 @@
+kill -TERM 1234
+kill -KILL 1234
+pkill processname
+echo $?
