@@ -1,0 +1,7 @@
+ps --no-headers --sort=pid
+sleep 1000 &
+sleep 3
+jobs
+fg %1
+bg %1
+watch -n 1 date
