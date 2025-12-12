@@ -1,0 +1,4 @@
+find tmp -name "*\.md"
+find /app -mmin -120
+find tmp -name "*.txt" -exec ls -l {} \; | sort -k5 -n
+find tmp -name "*old*" -exec rm -i {} \;
