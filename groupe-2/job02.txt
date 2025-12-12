@@ -1,0 +1,3 @@
+grep "tail -f /dev/null" ps.txt
+grep -v "root" ps.txt
+cut -d' ' -f1 ps.txt

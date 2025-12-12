@@ -1,0 +1,3 @@
+tar -cf job03.tar logs.txt whoami.txt ps.txt
+tar -cf job03-inception.tar job03.tar whoami.txt
+tar -xf job03-inception.tar
