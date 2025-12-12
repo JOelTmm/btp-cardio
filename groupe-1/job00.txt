@@ -1,0 +1,4 @@
+echo "Hello, World" > yolo.md
+echo -n "Hello, la Plateforme" >> yolo.md
+cp yolo.md yolo2.md
+cat yolo2.md yolo.md
