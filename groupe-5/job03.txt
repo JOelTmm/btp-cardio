@@ -1,0 +1,4 @@
+telnet example.com 80
+wget --progress=bar https://github.com/superfly/flyctl/releases/download/v0.3.231/flyctl_0.3.231_macOS_x86_64.tar.gz
+tar -cf groupe-4.tar groupe-4/
+tar -xf groupe-4.tar
