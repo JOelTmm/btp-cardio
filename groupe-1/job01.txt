@@ -1,0 +1,3 @@
+head -n 2 groupe-1.md
+tail -n 10 groupe-1.md
+which ls
