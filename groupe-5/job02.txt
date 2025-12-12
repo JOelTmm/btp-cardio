@@ -1,0 +1,4 @@
+groups
+useradd student_lptf
+userdel -r student_lptf
+which tig
