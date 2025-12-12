@@ -1,0 +1,4 @@
+df -h
+du -sh /path/to/directory
+free -h
+hexdump -C -n 64 $(which tig)
