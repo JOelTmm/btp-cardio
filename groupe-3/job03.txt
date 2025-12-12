@@ -1,0 +1,5 @@
+sed "s/WARN/ATTENTION_ÇA_PIQUE!/g" data.txt
+awk "{print \$1, \$4}" data.txt
+tr " " ";" < data.txt
+grep -v "^$" data.txt
+awk "!/^(INFO|WARN|ERROR|DEBUG|TASK)/ || \$2 !~ /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/" data.txt
