@@ -1,0 +1,5 @@
+curl https://news.ycombinator.com
+ping -c 4 8.8.8.8
+traceroute simonwillison.net
+dig google.com
+whois lesswrong.com
