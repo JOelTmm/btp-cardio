@@ -1,0 +1,7 @@
+grep "POST.*192.168.0.2" logs.txt
+grep " 200 \| 404 " logs.txt
+cut -d" " -f9 logs.txt
+sort logs.txt
+cut -d' ' -f1 logs.txt | sort | uniq
+sed "s/200/OK_YOLO/g" logs.txt
+cut -d' ' -f1 logs.txt | sort | uniq -c
