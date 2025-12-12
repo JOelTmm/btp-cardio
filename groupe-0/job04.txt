@@ -1,0 +1,4 @@
+mkdir tmp
+mv tmp tmp2
+mkdir tmp2/tmp3
+rmdir tmp2/tmp3
