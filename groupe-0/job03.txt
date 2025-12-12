@@ -1,0 +1,5 @@
+echo "Hello, World!"
+history
+touch yolo.md
+stat yolo.md
+rm yolo.md
