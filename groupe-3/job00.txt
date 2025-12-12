@@ -1,0 +1,5 @@
+echo "Hello stdout"
+echo "Hello stderr" >&2
+echo "Content" > stdout.txt
+echo "Error" 2> stderr.txt
+echo "Both" > both.txt 2>&1

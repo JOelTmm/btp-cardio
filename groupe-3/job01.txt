@@ -1,0 +1,5 @@
+grep -c "INFO" data.txt
+grep "WARN" data.txt | sort
+grep "DEBUG" data.txt | sort | uniq
+grep "POST" data.txt | awk "{print \$3}"
+tr "[:lower:]" "[:upper:]" < data.txt
